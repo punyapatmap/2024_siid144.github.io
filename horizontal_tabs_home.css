@@ -51,3 +51,20 @@
 .tabcontent.active {
   display: block;
 }
+
+ul, ol {
+  padding-left: 20px; /* Adjust this value as needed for more or less indentation */
+}
+
+ul ul, ol ul {
+  padding-left: 30px; /* Indentation for nested lists */
+}
+
+ul li {
+  margin-bottom: 5px; /* Add some spacing between list items for better readability */
+}
+
+ul ul li {
+  margin-bottom: 5px; /* Spacing for nested list items */
+}
+
