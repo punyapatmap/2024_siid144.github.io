@@ -18,3 +18,9 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+// Default open tab on page load
+window.onload = function() {
+    // Simulate a click on the default tab link
+    document.getElementById("defaultOpen").click();
+}
