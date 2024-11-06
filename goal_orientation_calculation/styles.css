@@ -1,0 +1,97 @@
+/* Center the form on the page */
+form {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+//* Add this to your existing styles.css file */
+
+/* Center the result-content div */
+.result-content {
+    margin: 0 auto; /* Centers the container */
+    text-align: left; /* Left-aligns text inside */
+    max-width: 600px; /* Optional */
+    padding: 20px; /* Optional: Add some padding */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Rounded corners */
+    background-color: #f9f9f9; /* Optional: Background color */
+}
+
+/* Center the heading within the result-content */
+.result-content h2 {
+    text-align: center;
+}
+
+/* Optional: Style the paragraphs */
+.result-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* Style for the student ID input */
+.student-id {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.student-id label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Style for the question div */
+.question {
+    margin-bottom: 20px;
+}
+
+/* Align question content horizontally */
+.question-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left-align question text */
+.question-text {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+}
+
+/* Container for radio buttons */
+.radio-container {
+    display: flex;
+}
+
+/* Style for each radio label */
+.radio-label {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust the radio button appearance */
+.radio-label input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Optional: Adjust the size of the radio buttons */
+.radio-label input[type="radio"] {
+    transform: scale(1.2);
+}
+
+/* Center alignment for headings */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}

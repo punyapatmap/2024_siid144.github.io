@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Orientation Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Learning Orientation Survey</h1>
+
+<!-- Language Selection -->
+<div id="languageSelection" class="language-selection">
+    <label for="language">Please select your language:</label>
+    <select id="language">
+        <option value="en" selected>English</option>
+        <option value="th">ไทย (Thai)</option>
+    </select>
+    <button id="startSurvey">Start Survey</button>
+</div>
+
+<!-- Survey Form -->
+<form id="surveyForm" style="display: none;">
+    <!-- Questions will be dynamically inserted here -->
+</form>
+
+<!-- Include your JavaScript files -->
+<script src="questions.js"></script>
+<script src="latest_script.js"></script>
+
+</body>
+</html>
